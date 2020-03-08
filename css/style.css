@@ -196,3 +196,17 @@ img.img_9.img-fluid {
     background: #848484;
     opacity: 50%;
 }
+.com4{
+	height: 1000px;
+	background: url(../img/com4_bg.jpg);
+	overflow: hidden;
+}
+h2.mb-4 {
+    color: #FFF;
+    font-size: 40px;
+}
+
+.com4_top p {
+    color: #555;
+    font-size: 14px;
+}
