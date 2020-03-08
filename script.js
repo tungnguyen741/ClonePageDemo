@@ -1,5 +1,8 @@
 $(function(){
-	
+	var doCaoScreen = $(window).height();  
+	$('.bg_screen').css("height",doCaoScreen);
+
+	//lấy độ cao của màn hình
 	$(window).scroll(function(){
 		var viTri = $(document).scrollTop();
 		 if(viTri > 200){
@@ -19,7 +22,7 @@ $(function(){
  	 $('.img_1').css('transform','rotate('+-7+'deg)'); 
 
 	$('.img_2').animate({
- 		top:'-100px',
+ 		top:'-150px',
  		right: '-25px', 
 	},100);
  	 $('.img_2').css('transform','rotate('+375+'deg)');
@@ -43,26 +46,39 @@ $(function(){
 		},1700);
 	
 	$('.img_6').animate({
-			bottom:"360px",
+			bottom:"200px",
 	 		left:'350px'
 		},100 );
 	$('.img_6').css('transform','rotate('+-51+'deg)');
 
 	$('.img_7').animate({
-			bottom:"370px",
+			bottom:"170px",
 	 		left:'455px'
 		},100 );
 	$('.img_7').css('transform','rotate('+35+'deg)');
 
 	$('.img_8').animate({
-			bottom:"150px",
+			bottom:"50px",
 	 		right:'100px'
 		},100 );
 	$('.img_8').css('transform','rotate('+15+'deg)');
 
 	$('.img_9').animate({
-			bottom:"0",
+			bottom:"-150px",
 	 		right:'-490px'
 		},100 );
 	$('.img_9').css('transform','rotate('+0+'deg)');
+	// end hinh
+
+	$(window).scroll(function(){
+		var viTri = $(document).scrollTop();
+		 if(viTri > 50){
+		 	 
+		 }
+		 else if(viTri < 50)
+		 {
+		 	 
+		 }
+			
+	});
 });
