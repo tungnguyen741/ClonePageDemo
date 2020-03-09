@@ -442,6 +442,9 @@ i.fas.fa-play-circle:hover{
     transform: scale(1.2,1.2);
     cursor: pointer;
 }
+.col-md-4.col-12.p-0.com10_box1.position-relative {
+    height: 305px;
+}
 /*com11*/
 .com11_box1 i.fas.fa-dog, .com11_box1 i.fas.fa-cat, .com11_box1 i.fas.fa-dove {
     font-size: 40px;
@@ -458,4 +461,33 @@ i.fas.fa-play-circle:hover{
 .com11_box1 p {
     font-size: 13px;
     color: #666;
+}
+
+/*com12*/
+.com12_bg{
+    background: #141414;
+ 
+}
+.com12_bg p, .com12_bg a {
+    color: #fff;
+    padding-top: 42px;
+    display: block;
+}
+.com12_bg a {
+    margin: 0 5px;
+}
+.com12_bg p {
+    margin-right: 10px;
+}
+.com12_mid a{
+    font-size: 30px;
+    font-weight: bold;
+}
+.com12_mid a:hover{
+    text-decoration: none;
+}
+.com12_mid a {
+    font-size: 27px;
+    font-weight: bold;
+    padding: 35px 0;
 }
