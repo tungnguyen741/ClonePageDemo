@@ -442,3 +442,20 @@ i.fas.fa-play-circle:hover{
     transform: scale(1.2,1.2);
     cursor: pointer;
 }
+/*com11*/
+.com11_box1 i.fas.fa-dog, .com11_box1 i.fas.fa-cat, .com11_box1 i.fas.fa-dove {
+    font-size: 40px;
+    margin-right: 20px;
+}
+.com11_box1 h5 {
+    font-size: 14px;
+    color: #888;
+}
+.com11_box1 h2 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.com11_box1 p {
+    font-size: 13px;
+    color: #666;
+}
