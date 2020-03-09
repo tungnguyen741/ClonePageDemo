@@ -390,3 +390,55 @@ h2.mb-4 {
 .com9_box:hover {
     border: 5px red solid;
 }
+
+/*com 10*/
+.com10_box1{
+ background: url("../img/com10_img1.jpg") no-repeat;
+ background-size: cover;
+}
+.com10_box2{
+ background: url("../img/com10_img3.jpg") no-repeat;
+ background-size: cover;
+}
+
+.com10_box3
+{
+ background: url("../img/com10_img2.jpg") no-repeat;
+ background-size: cover;
+}
+.com10_box1 h5.mt-5 {
+    font-size: 10px;
+    color: red;
+    text-decoration: underline;
+}
+.com10_box1 h2 {
+    color: #FFF;
+    font-size: 33px;
+}
+.com10_box1 p {
+    color: #EEE;
+    font-size: 13px;
+}
+.com10_overlay.position-absolute {
+    background: #040404;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 0.7;
+}
+.com10_overlay.com10_overlay2.position-absolute {
+    background: #da274d;
+}
+.com10_box2 i.fas.fa-play-circle {
+    color: white;
+    font-size: 60px;
+    margin-top: 125px;
+    transition: 0.3s all cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.container-fluid.com10_box2_res.p-0 {
+    height: 305px;
+}
+i.fas.fa-play-circle:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
