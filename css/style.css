@@ -381,3 +381,12 @@ h2.mb-4 {
     font-size: 12px;
     margin-bottom: 30px;
 }
+.com9_box {
+    border: 1px solid #aaa;
+    height: 200px;
+    box-sizing: border-box;
+  transition: 0.09s all cubic-bezier(0.15, 0.36, 0.85, 0.6);
+}
+.com9_box:hover {
+    border: 5px red solid;
+}
