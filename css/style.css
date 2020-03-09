@@ -1,7 +1,11 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 }
-
+/*menu 3 soc*/
+button.navbar-toggler {
+    margin-right: 20px;
+}
+/*menu 3 soc*/
 .navbar-light .navbar-nav .nav-link {
     font-size: 12px;
     font-weight: 600;
@@ -482,12 +486,50 @@ i.fas.fa-play-circle:hover{
 .com12_mid a{
     font-size: 30px;
     font-weight: bold;
+    transform: rotateY(0deg);
+    transition: 0.5s all;
 }
 .com12_mid a:hover{
     text-decoration: none;
+    background-color: #112832;
+    transform: translate3d(15px, -6px, -11px);
 }
 .com12_mid a {
     font-size: 27px;
     font-weight: bold;
     padding: 35px 0;
+}
+ 
+/*com13*/
+.com13_bg{
+    background: #1c1c1c;
+    padding: 100px 0;
+}
+.com13_bg h6, .com13_bg p {
+    color: #939393;
+    font-size: 13px;
+}
+.com13_bg p{
+    font-size: 11px;
+} 
+.com13_col2_1.d-flex {
+    white-space: pre-wrap;
+}
+.com13_col2_1.d-flex img {
+    margin-right: 15px;
+}
+.com13_col2_1.d-flex {
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+.com13_column4 img{
+    margin-bottom: 4px;
+}
+.com13_bg {
+    padding: 80px 0;
+}
+.com13_bg .container:first-child {
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
 }
