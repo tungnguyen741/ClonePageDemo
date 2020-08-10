@@ -1,6 +1,5 @@
- 
 $(function() {
-
+    
     var doCaoScreen = $(window).height();
     $('.bg_screen').css("height", doCaoScreen);
     //lấy độ cao của màn hình
@@ -111,8 +110,15 @@ $(function() {
             $('.com9_box4_ani').removeClass('com9_box4_app');
         }
     });
-    // animation h1 title
+// test mouseover
+$('.tilte_main').mouseover(function(){
+    $('.tilte_main').addClass('title_hover');
+}).mouseleave(function() {
+     $('.tilte_main').removeClass('title_hover');
+  });
+
+
  
-});
+ });
  
  

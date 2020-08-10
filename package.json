@@ -1,0 +1,25 @@
+{
+  "name": "demo_bootStrap",
+  "version": "1.0.0",
+  "description": "https://demo.kallyas.net/sneakers-shop/\r https://undsgn.com/uncode/homepages/portfolio-classic/\r https://undsgn.com/uncode/homepages/classic-agency/\r https://preview.themeforest.net/item/polo-responsive-multipurpose-html5-template/full_screen_preview/13708923?_ga=2.123544331.1064225064.1583587000-1069471049.1583570834\r http://www.themezaa.com/html/pofo/home-classic-web-agency.html\r http://preview.themeforest.net/item/pofo-creative-agency-corporate-and-portfolio-multipurpose-template/full_screen_preview/20645944?_ga=2.125513354.1629248223.1583587251-1069471049.1583570834",
+  "main": "script.js",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "smooth-scrollbar": "^8.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tungnguyen741/demo_bootStrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tungnguyen741/demo_bootStrap/issues"
+  },
+  "homepage": "https://github.com/tungnguyen741/demo_bootStrap#readme"
+}

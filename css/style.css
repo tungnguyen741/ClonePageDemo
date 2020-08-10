@@ -1,5 +1,7 @@
+
 body {
     font-family: 'Montserrat', sans-serif;
+
 }
 /*menu 3 soc*/
 
@@ -39,6 +41,13 @@ ul.navbar-nav {
 .title_branch h1 {
     font-weight: 900;
     font-size: 75px;
+}
+.title_hover{
+        transform: skewX(10deg);
+    transition: 0.5s transform;
+}
+.tilte_main{
+    transition: 0.5s all;
 }
 .center p {
     color: #777;
