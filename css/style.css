@@ -314,10 +314,10 @@ h2.mb-4 {
 
 .com6_overlay {
     height: 100%;
-    width: 97%;
+    width: 100%;
     position: absolute;
     top: 0;
-    left: 2%;
+    left: 0;
     background: #1f2529;
     opacity: 0;
     transition: 0.25s all;
@@ -336,24 +336,19 @@ h2.mb-4 {
     font-weight: 100;
     transition: 0.5s all;
 }
-.com6_overlay_2top {
-    height: 100%;
-    width: 92%;
-    position: absolute;
-    top: 0;
-    left: 4%;
-    background: #1f2529;
-    opacity: 0;
-    transition: 0.25s all;
-}
+ 
 .com6_overlay_2bot h5, .com6_overlay_3top h5 {
     margin-top: 25%;
 }
 .com6_overlay_2bot, .com6_overlay_3top, .com6_overlay_2top, .com6_overlay_3bot {
-    width: 92%;
+    height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
-    left: 4%;
+    left: 0;
+    background: #1f2529;
+    opacity: 0;
+    transition: 0.25s all;
 }
 .com6.pr-5.pl-5 {
     overflow: hidden;
@@ -714,4 +709,22 @@ i.fas.fa-play-circle:hover {
 .com13_bg .container:first-child {
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
+}
+
+.com6_column1_top1, .com6_column1_top2{
+    flex-basis: 49%;
+}
+.col-md-4.com6_column1 .row {
+    justify-content: space-between;
+}
+.col-md-4.com6_column2 .row {
+    justify-content: center;
+}
+
+.col-md-12.com6_column2_top.com6_img4_ani.com6_img4_app, .col-md-12.com6_column2_bot.com6_img5_ani.com6_img5_app, .col-md-12.com6_column3_top.com6_img6_ani.com6_img6_app,.col-md-12.com6_column3_bot.com6_img7_ani.com6_img7_app {
+    flex-basis: 96%;
+    padding: 0 !important;
+}
+.col-md-4.com6_column3.pl-2.pr-0 .row {
+    justify-content: center;
 }
