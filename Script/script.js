@@ -111,11 +111,6 @@ $(function() {
         }
     });
 // test mouseover
-$('.tilte_main').mouseover(function(){
-    $('.tilte_main').addClass('title_hover');
-}).mouseleave(function() {
-     $('.tilte_main').removeClass('title_hover');
-  });
 
 
  
