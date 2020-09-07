@@ -232,7 +232,7 @@ img.img_9.img-fluid {
     z-index: -1;
 }
 .bg-com3 {
-    background: url(../img/com3_bg.jpg) no-repeat;
+    background: url(../Img/com3_bg.jpg) no-repeat;
     height: 425px;
     background-attachment: fixed;
     overflow: hidden;
